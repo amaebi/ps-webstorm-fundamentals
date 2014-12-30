@@ -1,7 +1,11 @@
 // app.js
 
-(function() {
+(function () {
     "use strict";
 
-    angular.module("pizzaApp", []);
+    var module = angular.module("pizzaApp", []);
+
+    module.controller("orderController", function () {
+
+    });
 })();
